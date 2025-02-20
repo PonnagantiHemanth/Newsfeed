@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen main">
-      <h1 className="text-3xl font-bold mt-10 center text-gray-900 pt-20">Top Headlinessssss</h1>
+      <h1 className="text-3xl font-bold mt-10 center text-gray-900 pt-20">Top Headlines</h1>
 
       
       <div className="flex space-x-4 my-4">
