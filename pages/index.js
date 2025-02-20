@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchNews } from "../utils/fetchNews";
 import NewsCard from "../components/NewsCard";
-import Loader from "../components/Loader"; 
+import Loader from "../components/Loader"; // Import the Loader component
 import "./index.css";
 
 const categories = ["general", "business", "technology", "sports", "entertainment"];
@@ -43,7 +43,7 @@ const Home = () => {
         className="search-box my-4"
       />
 
-      
+      {/* Show Loader While Fetching Data */}
       {loading ? (
         <Loader />
       ) : articles.length > 0 ? (
